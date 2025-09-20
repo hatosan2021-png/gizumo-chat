@@ -46,7 +46,8 @@ function sendMessage() {
 
   // wit.ai API へのリクエスト
   fetch('https://api.wit.ai/message?v=20250920&q=' + encodeURIComponent(text), {
-    headers: { 'Authorization': 'Bearer YOUR_WIT_AI_TOKEN' }
+    headers: { 'Authorization': 'BearerCT2GAIIISHWX4EGSNG5ZV7BEZP52TPXJ
+ ' }
   })
   .then(res => res.json())
   .then(data => {
@@ -68,3 +69,4 @@ input.addEventListener('keypress', function(e) {
 </script>
 </body>
 </html>
+
